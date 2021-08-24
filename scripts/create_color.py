@@ -2,7 +2,7 @@ from brownie import ColorCollectible, accounts, config
 from scripts.helper_script import get_color
 import time
 
-STATIC_SEED = 124
+STATIC_SEED = 126
 
 def main():
 	dev = accounts.add(config["wallets"]["from_key"])
