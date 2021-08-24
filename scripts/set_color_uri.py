@@ -7,7 +7,7 @@ metadata_dic = {
 	"Color_4": "https://ipfs.io/ipfs/QmeKitph5f5poS6iCUc2SPQV2kHqC1nRSfNXPewhh3kM6w?filename=color_4.png"
 }
 
-OPENSEA_FORMAT = "https://testnets.opensea.io/assets/{}/{}"
+OPENSEA_FORMAT = "https://testnets.opensea.io/assets/{}/{}/?force_update=true"
 
 
 def main():
