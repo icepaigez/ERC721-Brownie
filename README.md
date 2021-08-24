@@ -3,7 +3,7 @@
  
 ## General Info
 The tokens can be accessed on the Kovan network at the following addresses:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ColorCollectible - '0xa3090b2b6297B100A30bc6F1A26C68Bab5E4D789'  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ColorCollectible - '0x0B9Bf4e9df52ECE9901397fA6C40cfd5aFB7094a'  
 
 
 ## Inspiration
