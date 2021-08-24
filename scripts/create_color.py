@@ -9,6 +9,9 @@ def main():
 	palette_instance = ColorCollectible[len(ColorCollectible) - 1]
 	transaction = palette_instance.createColor("None", STATIC_SEED, {"from": dev})
 	transaction.wait(1)
-	requestId = transaction.events["requestedColor"]["requestId"]
-	color_id = palette_instance.requestIdToColorId[requestId]
-	color = get_color(palette_instance.colorIdToColor[colorId])
+	time.sleep(35)
+	print (transaction)
+	requestId = transaction.events["requestedColor"]["randomId"]
+	color_id = palette_instance.requestIdToColorId(requestId)
+	color = get_color(palette_instance.colorIdToColor(colorId)) 
+	print('Chosen color of {} is {}'.format(color_id, color))
